@@ -10,6 +10,12 @@
 		214D40101D3FCED4000F7B1A /* PullToBounceFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 214D400F1D3FCED4000F7B1A /* PullToBounceFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214D40141D3FCED4000F7B1A /* PullToBounceFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214D400D1D3FCED4000F7B1A /* PullToBounceFramework.framework */; };
 		214D40151D3FCED4000F7B1A /* PullToBounceFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214D400D1D3FCED4000F7B1A /* PullToBounceFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		214D401A1D3FCFE6000F7B1A /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE06491B7C51190087EE7F /* CGRectEx.swift */; };
+		214D401B1D3FCFE6000F7B1A /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE064A1B7C51190087EE7F /* NSTimerEx.swift */; };
+		214D401C1D3FCFE6000F7B1A /* PullToBounceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE064D1B7C511F0087EE7F /* PullToBounceWrapper.swift */; };
+		214D401D1D3FCFE6000F7B1A /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
+		214D401E1D3FCFE6000F7B1A /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
+		214D401F1D3FCFE6000F7B1A /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E831B7B3669002D55E7 /* WaveView.swift */; };
 		B04C9E741B7B35FD002D55E7 /* PullToBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E731B7B35FD002D55E7 /* PullToBounceTests.swift */; };
 		B04C9E841B7B3669002D55E7 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7E1B7B3669002D55E7 /* BallView.swift */; };
 		B04C9E851B7B3669002D55E7 /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C9E7F1B7B3669002D55E7 /* BounceView.swift */; };
@@ -363,6 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214D401A1D3FCFE6000F7B1A /* CGRectEx.swift in Sources */,
+				214D401B1D3FCFE6000F7B1A /* NSTimerEx.swift in Sources */,
+				214D401C1D3FCFE6000F7B1A /* PullToBounceWrapper.swift in Sources */,
+				214D401D1D3FCFE6000F7B1A /* BounceView.swift in Sources */,
+				214D401E1D3FCFE6000F7B1A /* BallView.swift in Sources */,
+				214D401F1D3FCFE6000F7B1A /* WaveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PullToBounce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PullToBounce/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
